@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: yellow;
+    height: 50px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container {
+    width: 400px;
+    margin: 370px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .header {
+    padding: 10px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif; ;
+  }
+  
+  .task-container {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    margin-bottom: 5px;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+  }
+  #taskInput{
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    outline-style: none;
+  }
+  #add-button{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blueviolet;
+  }
+  .delete-button{
+    border-radius: 20px;
+    width: 20px;
+  }
+  .tasks{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    position: absolute;
+    /* text-align: center; */
+    margin-left: 60px;
+    line-height: 40px;
+  }
+  #add-button:hover{
+    opacity: 80%;
+  }
+  #taskList{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 360px;
+    margin: auto;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+.task{
+    margin-top: 30px;
+    height: 30px;
+}
+.delete-button:hover{
+    background-color: blueviolet;
+}
+.taskList{
+    padding-bottom: 20px;
+}
+#sort:hover{
+    color: blueviolet;
+}
+i{
+  margin-top: 15px;
+}
