@@ -47,6 +47,7 @@
     height: 40px;
     border-radius: 30px;
     outline-style: none;
+    padding-left: 20px;
   }
   #add-button{
     margin-top: 20px;
