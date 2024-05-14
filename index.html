@@ -10,11 +10,11 @@
   <div class="container">
     <div class="head"></div>
     <div class="header">To-Do-List</div>
-    <div class="task-container">
+    <span id="sort" class="fas fa-arrow-down-short-wide" style="cursor: pointer;" onclick="sortTasks()"></span>
       <div class="input-container">
         <input type="text" id="taskInput" placeholder="Add Task"><br>
+        <button class="input-icon">&#128465;</button>
         <button id="add-button" onclick="addTask()">Add</button>
-        <span id="sort" class="fas fa-arrow-down-short-wide" style="cursor: pointer;" onclick="sortTasks()"></span>
       </div>
       <div id="taskList"></div>
     </div>

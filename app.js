@@ -1,3 +1,4 @@
+let addInputButton = document.querySelector('.input-icon');
 function addTask() {
     let taskInput = document.getElementById("taskInput");
     let taskText = taskInput.value.trim();
@@ -55,5 +56,10 @@ function addTask() {
       
       ascending = !ascending;
   }
+  addInputButton.addEventListener('click',  (event) => {
+    event.preventDefault();
+    taskInput.value = '';
+});
+
   
 

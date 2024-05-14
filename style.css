@@ -51,7 +51,7 @@
   }
   #add-button{
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 110px;
     width: 200px;
     height: 40px;
     border-radius: 20px;
@@ -93,8 +93,26 @@
     padding-bottom: 20px;
 }
 #sort:hover{
-    color: blueviolet;
+    color: blueviolet;  
 }
 i{
   margin-top: 15px;
+}
+#sort{
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-right: 60px;
+}
+.input-icon{
+  float: right;
+  margin-right: 90px;
+  margin-top: -30px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.input-icon:hover{
+  background-color: blueviolet;
 }
